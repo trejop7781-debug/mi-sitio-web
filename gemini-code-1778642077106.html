@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil Profesional</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --text: #333;
+            --light: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--text);
+            background-color: var(--light);
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        nav {
+            background: #1a252f;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 0.5rem;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#hobbies">Tecnología</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<header id="inicio">
+    <h1>Líder en Tecnologías de Información</h1>
+    <p>Project Manager | Optimización de P&L | Entusiasta de Home Servers</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Sobre Mí</h2>
+        <p>
+            Profesional con amplia experiencia en la entrega de modelos de PMO regionales y crecimiento de unidades de negocio. Me especializo en la migración de plataformas a gran escala y la optimización financiera dentro del sector IT. Fuera del entorno corporativo, me apasiona la infraestructura tecnológica personal y el DIY.
+        </p>
+    </section>
+
+    <section id="experiencia">
+        <h2>Áreas de Especialidad</h2>
+        <div>
+            <span class="skill-tag">Gestión de Proyectos (PMBOK)</span>
+            <span class="skill-tag">Estrategia de TI</span>
+            <span class="skill-tag">Migración de Plataformas</span>
+            <span class="skill-tag">Liderazgo de Equipos</span>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>Laboratorio Tecnológico & Proyectos</h2>
+        <p>Además de mi carrera profesional, dedico tiempo a la optimización de hardware y software doméstico:</p>
+        <ul>
+            <li>Configuración de servidores multimedia (Plex) en hardware optimizado.</li>
+            <li>Gestión de ecosistemas Smart Home multiplataforma.</li>
+            <li>Proyectos creativos de organización y diseño.</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Conectemos</h2>
+        <p>Si te interesa charlar sobre gestión de proyectos, infraestructura o nuevas tecnologías, no dudes en contactarme.</p>
+        <p>Email: <strong>tu-email@ejemplo.com</strong></p>
+    </section>
+</div>
+
+<div class="footer">
+    <p>&copy; 2026 - Perfil Personal</p>
+</div>
+
+</body>
+</html>
